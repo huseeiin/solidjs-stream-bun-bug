@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "reprod": "bun --bun vite-node reprod.tsx"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.14.7",
+    "@whatwg-node/server": "^0.9.49",
+    "bun-types": "^1.1.30-canary.20241008T140527",
+    "solid-js": "^1.9.2",
+    "vite-node": "^2.1.2",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}

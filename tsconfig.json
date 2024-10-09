@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "types": ["bun-types", "vite/client"],
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "verbatimModuleSyntax": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowJs": true
+  }
+}

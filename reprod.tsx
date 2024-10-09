@@ -55,7 +55,7 @@ const server = (req: Request) => {
 };
 
 // this works (using node:http under the hood)
-createServer(createServerAdapter(server)).listen(3000);
+// createServer(createServerAdapter(server)).listen(3000);
 
 // but this doesn't:
-// Bun.serve({ fetch: server });
+Bun.serve({ fetch: server });
